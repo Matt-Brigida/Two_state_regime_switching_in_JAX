@@ -117,6 +117,6 @@ import plotly.express as px
 state_2 = pd.DataFrame(xia[:,2])
 fig = px.line(state_2, title='NG/Oil')
 fig.show()
-
+fig.write_image("./prob_state_2.png")
 
 ## good results-------
